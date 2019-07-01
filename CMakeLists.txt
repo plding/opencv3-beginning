@@ -9,9 +9,9 @@ set(CHAPTERS
 )
 
 set(1.beginning
-    1.1.image
-    1.2.erode
-    1.3.blur
+    1.image
+    2.erode
+    3.blur
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
@@ -20,7 +20,7 @@ set(LIBS ${OpenCV_LIBS})
 
 foreach(CHAPTER ${CHAPTERS})
     foreach(DEMO ${${CHAPTER}})
-        set(TARGET_DIR ${CMAKE_CURRENT_BINARY_DIR}/bin/${CHAPTER}/${DEMO})
+        set(TARGET_DIR ${CMAKE_CURRENT_BINARY_DIR}/bin/${CHAPTER})
         file(GLOB SOURCE
             "src/${CHAPTER}/${DEMO}/*.h"
             "src/${CHAPTER}/${DEMO}/*.cpp"

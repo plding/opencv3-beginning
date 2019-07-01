@@ -4,7 +4,7 @@ using namespace cv;
 
 int main(void)
 {
-    Mat srcImage = imread("1.jpg");
+    Mat srcImage = imread("3.jpg");
 
     Mat dstImage;
     blur(srcImage, dstImage, Size(7, 7));

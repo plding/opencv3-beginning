@@ -4,7 +4,7 @@ using namespace cv;
 
 int main(void)
 {
-    Mat srcImage = imread("1.jpg");
+    Mat srcImage = imread("2.jpg");
     
     Mat element = getStructuringElement(MORPH_RECT, Size(15, 15));
     Mat dstImage;
