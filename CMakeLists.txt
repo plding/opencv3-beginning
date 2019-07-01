@@ -19,6 +19,7 @@ set(1.beginning
 
 set(3.highgui
     1.write    
+    2.mixed
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
