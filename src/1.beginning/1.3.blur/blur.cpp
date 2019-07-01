@@ -5,11 +5,10 @@ using namespace cv;
 int main(void)
 {
     Mat srcImage = imread("1.jpg");
-    
-    Mat element = getStructuringElement(MORPH_RECT, Size(15, 15));
+
     Mat dstImage;
-    erode(srcImage, dstImage, element);
-    imshow("ercode rendering", dstImage);
+    blur(srcImage, dstImage, Size(7, 7));
+    imshow("blur rendering", dstImage);
 
     waitKey(0);
     return 0;
