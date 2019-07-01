@@ -12,6 +12,7 @@ set(1.beginning
     1.image
     2.erode
     3.blur
+    4.canny
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
