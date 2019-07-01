@@ -6,4 +6,5 @@ int main()
     Mat srcImage = imread("1.jpg");
     imshow("Image", srcImage);
     waitKey(0);
+    return 0;
 }

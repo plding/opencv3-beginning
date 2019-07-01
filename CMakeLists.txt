@@ -10,6 +10,7 @@ set(CHAPTERS
 
 set(1.beginning
     1.1.image
+    1.2.erode
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
