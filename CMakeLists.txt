@@ -40,6 +40,7 @@ set(6.proc
     1.box-filter
     2.blur
     3.gaussian-blur
+    4.linear-blur
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
