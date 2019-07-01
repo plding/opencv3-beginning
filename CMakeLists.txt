@@ -13,6 +13,7 @@ set(1.beginning
     2.erode
     3.blur
     4.canny
+    5.video
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
@@ -32,6 +33,7 @@ foreach(CHAPTER ${CHAPTERS})
         file(GLOB RESOURCES
             "src/${CHAPTER}/${DEMO}/*.jpg"
             "src/${CHAPTER}/${DEMO}/*.png"
+            "src/${CHAPTER}/${DEMO}/*.avi"
         )
         foreach(RESOURCE ${RESOURCES})
             file(COPY ${RESOURCE} DESTINATION ${TARGET_DIR})
