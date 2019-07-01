@@ -7,6 +7,7 @@ find_package(OpenCV REQUIRED)
 set(CHAPTERS
     1.beginning
     3.highgui
+    5.core
 )
 
 set(1.beginning
@@ -21,6 +22,12 @@ set(3.highgui
     1.write    
     2.mixed
     3.trackbar
+)
+
+set(5.core
+    1.pointer
+    2.iterator
+    3.at
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
