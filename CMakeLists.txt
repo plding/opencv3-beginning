@@ -6,6 +6,7 @@ find_package(OpenCV REQUIRED)
 
 set(CHAPTERS
     1.beginning
+    3.highgui
 )
 
 set(1.beginning
@@ -14,6 +15,10 @@ set(1.beginning
     3.blur
     4.canny
     5.video
+)
+
+set(3.highgui
+    1.write    
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
