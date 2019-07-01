@@ -8,6 +8,7 @@ set(CHAPTERS
     1.beginning
     3.highgui
     5.core
+    6.proc
 )
 
 set(1.beginning
@@ -33,6 +34,12 @@ set(5.core
     6.roi_linear
     7.multi-channels
     8.contrast-bright
+)
+
+set(6.proc
+    1.box-filter
+    2.blur
+    3.gaussian-blur
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
