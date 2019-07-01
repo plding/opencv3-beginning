@@ -32,6 +32,7 @@ set(5.core
     5.linear
     6.roi_linear
     7.multi-channels
+    8.contrast-bright
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
