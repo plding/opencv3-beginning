@@ -29,6 +29,7 @@ set(5.core
     2.iterator
     3.at
     4.roi
+    5.linear
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
