@@ -10,6 +10,7 @@ set(CHAPTERS
     5.core
     6.proc
     7.transform
+    8.contours
 )
 
 set(1.beginning
@@ -49,6 +50,10 @@ set(6.proc
 
 set(7.transform
     canny
+)
+
+set(8.contours
+    findContours
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
