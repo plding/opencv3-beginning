@@ -42,6 +42,8 @@ set(6.proc
     3.gaussian-blur
     4.linear-blur
     dilate-and-erode
+    open-and-close
+    resize
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
