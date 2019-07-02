@@ -9,6 +9,7 @@ set(CHAPTERS
     3.highgui
     5.core
     6.proc
+    7.transform
 )
 
 set(1.beginning
@@ -44,6 +45,10 @@ set(6.proc
     dilate-and-erode
     open-and-close
     resize
+)
+
+set(7.transform
+    canny
 )
 
 include_directories(${OpenCV_INCLUDE_DIRS})
